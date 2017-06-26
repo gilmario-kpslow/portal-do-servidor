@@ -1,0 +1,245 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 25/06/2017, 15:29:46
+    Author     : gilmario
+
+#286090 => #25884f : TEXTO
+#286090 => #00796b : TEXTO
+#337ab7 => #00695c : Background
+#2e6da4 => #006064 : Border
+#122b40 => #004d40 : Border focus
+#204d74 => #009688 : BtnDropDown
+
+*/
+
+.text-green{
+    color: #25884f;
+}
+
+a.text-green:hover,
+a.text-green:focus {
+    color: #25884f;
+}
+
+.bg-green {
+    color: #fff;
+    background-color: #25884f;
+}
+a.bg-green:hover,
+a.bg-green:focus {
+    background-color: #25884f;
+}
+.btn-green {
+    color: #fff;
+    background-color: #25884f;
+    border-color: #006064;
+}
+.btn-green:focus,
+.btn-green.focus {
+    color: #fff;
+    background-color: #00695c;
+    border-color: #004d40;
+}
+.btn-green:hover {
+    color: #fff;
+    background-color: #00695c;
+    border-color: #009688;
+}
+.btn-green:active,
+.btn-green.active,
+.open > .dropdown-toggle.btn-green {
+    color: #fff;
+    background-color: #25884f;
+    border-color: #009688;
+}
+.btn-green:active:hover,
+.btn-green.active:hover,
+.open > .dropdown-toggle.btn-green:hover,
+.btn-green:active:focus,
+.btn-green.active:focus,
+.open > .dropdown-toggle.btn-green:focus,
+.btn-green:active.focus,
+.btn-green.active.focus,
+.open > .dropdown-toggle.btn-green.focus {
+    color: #fff;
+    background-color: #009688;
+    border-color: #004d40;
+}
+.btn-green:active,
+.btn-green.active,
+.open > .dropdown-toggle.btn-green {
+    background-image: none;
+}
+.btn-green.disabled:hover,
+.btn-green[disabled]:hover,
+fieldset[disabled] .btn-green:hover,
+.btn-green.disabled:focus,
+.btn-green[disabled]:focus,
+fieldset[disabled] .btn-green:focus,
+.btn-green.disabled.focus,
+.btn-green[disabled].focus,
+fieldset[disabled] .btn-green.focus {
+    background-color: #25884f;
+    border-color: #006064;
+}
+.btn-green .badge {
+    color: #25884f;
+    background-color: #fff;
+}
+
+.label-green {
+    background-color: #25884f;
+}
+.label-green[href]:hover,
+.label-green[href]:focus {
+    background-color: #25884f;
+}
+
+.panel-green {
+    border-color: #25884f;
+}
+.panel-green > .panel-heading {
+    color: #fff;
+    background-color: #25884f;
+    border-color: #25884f;
+}
+.panel-green > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #25884f;
+}
+.panel-green > .panel-heading .badge {
+    color: #25884f;
+    background-color: #fff;
+}
+.panel-green > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #25884f;
+}
+
+.navbar-gray{
+    background-image: linear-gradient(to bottom,#ccc 0,#ddd 100%)
+
+}
+
+.main{
+    min-height: 400px;
+}
+
+.btn-width{
+    min-width: 150px;
+    text-align: center;
+}
+
+/* Componente Mensagens */
+.mensagem-sistema{
+    width: 400px;
+}
+
+/*.mensagem-sistema div[class*='modal-header']{
+    padding: 3px;
+    margin: 3px;
+    font-weight: 500;
+    font-size: 1.5em;
+}*/
+
+
+.mensagem-sistema div[class*='modal-content']{
+    font-size: 1.1em;
+    min-height: 100px;
+}
+.mensagem{
+    padding: 3px;
+    margin: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login{
+    min-height: 465px;
+    padding-top: 50px;
+}
+
+
+.text-bold{
+    font-weight: bold;
+}
+
+.bg-green {
+    background-color: #25884f;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+footer.page-footer {
+    padding-top: 20px;
+    background-color: #25884f;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(51, 51, 51, 0.08);
+}
+
+i {
+    line-height: inherit;
+}
+i.left {
+    float: left;
+    margin-right: 5px;
+}
+i.right {
+    float: right;
+    margin-left: 0px;
+}
+i.tiny {
+    font-size: 1rem;
+}
+i.small {
+    font-size: 2rem;
+}
+
+i.medium {
+    font-size: 4rem;
+}
+
+i.large {
+    font-size: 6rem;
+}
+
+.error-campo{
+    margin-left: 10px; padding: 3px 4px 4px 3px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.box-vazia{
+    height: 20px;
+}
+
+.panel-body{
+    background-color: rgba(200,200,200,0.1);
+}
